@@ -24,6 +24,7 @@ public class condicionIf {
 		
 		System.out.println("porfavor nombre:");
 		
+		@SuppressWarnings("resource")
 		Scanner nombre= new Scanner(System.in);
         String cadena = nombre.nextLine();
         
