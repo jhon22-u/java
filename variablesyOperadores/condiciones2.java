@@ -21,7 +21,7 @@ public class condiciones2 {
         
         else 
         	 System.out.println(v2);
-        numero.close();
+        //numero.close();
         
         if (n1> v3)
              System.out.println(n1);
