@@ -65,14 +65,19 @@ public class Calculadora {
 		
 	default:
 		System.out.println("Operacion Incorrecta");
-	
+		while(!operacion.equals("f"));
+		entrada.close();
+	   		
+	   		
+	   		}  
+	   		
+	   		
+	   		}
 	}
 	
 
-	}
-	        while(!operacion.equals("f"));
-}         entrada.close();
-} 
-}
+	
+	        
+
 
 
