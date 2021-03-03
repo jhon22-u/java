@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-import com.sun.java_cup.internal.runtime.Scanner;
+//import com.sun.java_cup.internal.runtime.Scanner;
 
 public class trabajo2 {
 

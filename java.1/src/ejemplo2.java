@@ -5,28 +5,52 @@ public class ejemplo2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	
+		System.out.println("¿Cuál es tu nota?");
+		Scanner entrada = new Scanner(System.in);
+		
+		int nota= entrada.nextInt();
+		String calificacionString="";
+		
+		switch(nota)
+		{
+		
+		case 0: 
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+			calificacionString="insuficiente";
+		break;
+		case 5: calificacionString="suficiente";
+		break;
+		case 6: calificacionString="bien";
+		break;
+		case 7:
+		case 8:
+			calificacionString="notable";
+		break;
+		case 9:
+		case 10:
+			calificacionString="sobresaliente";
+		break;
 		
 		
-		System.out.print("dame un numero: ");
-		System.out.print("dame un segundo numero: ");
+		}
+		
+		System.out.println(calificacionString);
+		
+		entrada.close();
 		
 		
+	
+
+
+
 		
-		
-		 Scanner numero= new Scanner(System.in);
-		int n1;
-		 Scanner numero2 new Scanner(System.in);
-		 int n2;
-		  n1 = numero.nextInt();
-		  n2 =numero2.nextInt();
-		  
-		  if( n1>n2) {
-			  System.out.print(n1+"y"+n2);
-			  
-			  
-		  } else {
-			  System.out.print(n2+""+n1);
-		  }
+
+
+	  
 		 
 	} 
 
