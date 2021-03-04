@@ -7,7 +7,7 @@ public class MostrarNumeros {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("Introduzca un numero 15 numeros de 1 al 100: ");
+		System.out.println("Introduzca un numero : ");
 		Scanner n = new Scanner(System.in);
 		
 		
@@ -31,9 +31,9 @@ public class MostrarNumeros {
 			System.out.println("Terminamos");
 			
 		} else {
-			medida= suma+contador;
+			medida= contador+suma;
 			 
-			 System.out.println("Tu suma es "+ medida);
+			 System.out.println("Tu suma es "+ medida +" y la media es :"+ (suma+ suma) );
 		}
 		
 		
