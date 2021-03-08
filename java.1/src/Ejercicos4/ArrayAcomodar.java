@@ -1,13 +1,13 @@
-package Ejercicio3;
+package Ejercicos4;
 
 import java.util.Scanner;
 
-public class ArgloDe1A {
+public class ArrayAcomodar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Scanner cont = new Scanner(System.in);
+         Scanner cont = new Scanner(System.in);
 		
 		int array0[],
 		 array1[], array2[];
@@ -26,11 +26,11 @@ public class ArgloDe1A {
 			array0[i] = cont.nextInt();
 			
 		}
-		System.out.println("ahora letras:");
+		System.out.println("ahora 5 numeros mas :");
 		 for(int i =0 ; i < 5 ; i++) {
 			
-			System.out.print((i+1)+"dame una letra: ");
-            //Scanner letras= new Scanner(System.in);
+			System.out.print((i+1)+"Dame untros 5 numeros: ");
+       
 			array1[i] =cont.nextInt();
 			
 	           
@@ -51,7 +51,10 @@ public class ArgloDe1A {
 		 for (int i =0; i< 10; i++){
 			 System.out.print(array2[i]+"");
 		 }
-		// no terminado 
+		
+		
+		
+		
 		
 		
 	}

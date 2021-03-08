@@ -10,23 +10,23 @@ public class Tablas5x5 {
 		// array de dos dimenciones 
 		
 		
-		//int[][] lista = new int[7][7];
-		int lista[][][] = new int[3][3][3];
+		int[][] lista = new int[5][5];
+		//int lista[][][] = new int[3][3][3];
 
 		
-		for (int i = 0; i < 3; i++) {
-			for (int j = 0; j < 3; j++) {
-				for (int e = 0; e< 3; e++)
-				lista[i][j][e] = i + j+ e;
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 5; j++) {
+				//for (int e = 0; e< 5; e++)
+				lista[i][j]= i + j;
 			}
 		}
 		
 		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < 5; j++) {
 				System.out.print(lista[i][j]+"-");
-			System.out.println("\n");
+			
 		}
-	}
+	}System.out.println("");
 
 	
 	

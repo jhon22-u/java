@@ -9,12 +9,12 @@ public class Tabla7x7 {
 			// Crear una tabla de tamaño 7x7 y rellenarla de forma que los elementos de la
 			// diagonal
 			// principal sean 1 y el resto 0.
-			int T[][] = new int[][];
+			int T[][] = new int[10][10];
 
 			// Relleno la tabla
 			for (int n = 0; n < T.length; n++) {
 
-				//T[n][n] = 1;
+				T[n][n] = 1;
 
 			}
 
