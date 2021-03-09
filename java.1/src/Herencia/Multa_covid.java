@@ -1,7 +1,7 @@
 package Herencia;
 
 public class Multa_covid extends Expediente {
-
+// Esto es el constructor
 	public Multa_covid(int cod_expediente, String tipo) {
 		super(cod_expediente, tipo);
 		// TODO Auto-generated constructor stub

@@ -4,7 +4,12 @@ public class Multa extends Expediente{
 	
 	
 	
-	   public Multa(int codexpediente, String tipo) {
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+	public Multa(int codexpediente, String tipo) {
 		super(codexpediente, tipo);
 		// TODO Auto-generated constructor stub
 	}
@@ -19,7 +24,7 @@ public class Multa extends Expediente{
 		this.importe = importe;
 	}
 
-	@Override
+
 	public void verdatos() {
 		// TODO Auto-generated method stub
 		//super.verdatos();
@@ -28,5 +33,5 @@ public class Multa extends Expediente{
 	
 	
 	
-
+	
 }

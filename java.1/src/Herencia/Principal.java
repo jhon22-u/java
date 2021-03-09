@@ -22,7 +22,7 @@ public class Principal {
     	ex1.setDescripcion("Desripcionvckls ajnmkfjdkflasl");
     	ex1.setResponsable("Pedro");
     	ex1.setTipo("Z");
-    	ex1.verdatos();		
+    	ex1.verdatos();		*/
     		
     	
     	Multa m1=new Multa(20,"B");
@@ -34,7 +34,7 @@ public class Principal {
     	
     	m1.verdatos();
     	m1.getImporte();
-*/    
+   
     	Multa_trafico mt1=new Multa_trafico(1000, "B");
     	mt1.setDescripcion("Saltar un ceda el paso");
     	mt1.setResponsable("conductor");
@@ -72,13 +72,29 @@ public class Principal {
 		return "No se";
 	}
 
+    public static String multaMayorImporte(Multa m1, Multa m2) {
+    	String cadena;
+    	if(m1.getImporte() > m2.getImporte()) {
+    		cadena = "El importe mayor es el de la multa: " + m1.getCodexpediente();
+    	 
+    	} else if(m1.getImporte() < m2.getImporte()) {
+    		cadena = "El importe mayor es el de la multa: " + m2.getCodexpediente();
+    	} else {
+    		cadena = "Ambas multas tienen el mismo importe";
+    	}
+    	return cadena;
+    }
+
+    public static String conocerTipo(Object x) {
+		
+		return "esres de tipo "+ x;
     
+    }
     
-    
-    
-    
-    
-    
+    public static CalcularElMayor(Multa[]m1) {
+    	double 
+    }
+     
     
     
 }
