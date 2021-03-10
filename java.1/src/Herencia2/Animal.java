@@ -32,4 +32,8 @@ public class Animal {
 		
 		return super.toString();
 	}
+	public String sonido(String string) {
+		// TODO Auto-generated method stub
+		return ("");
+	}
 }

@@ -10,7 +10,9 @@ public class principal {
 		
 		Animal animal = new Animal() ;
 		animal.setPatas(4);
-		animal.getColor("Blanco")
+		animal.getColor("Blanco");
+		
+		
 	}	
 	
 	
